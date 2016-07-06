@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cats">
+        <item>Photography</item>
+        <item>3D</item>
+        <item>Fitness</item>
+        <item>Health</item>
+        <item>Music</item>
+        <item>Zoo</item>
+    </string-array>
+    <array name="cat_pics">
+        <item>@drawable/photography</item>
+        <item>@drawable/d3d</item>
+        <item>@drawable/fitness</item>
+        <item>@drawable/health</item>
+        <item>@drawable/music</item>
+        <item>@drawable/sports</item>
+    </array>
+</resources>

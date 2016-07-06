@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cdac.readpanda.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/article_keylines"
+        android:paddingRight="@dimen/md_keylines"
+        android:paddingTop="@dimen/md_keylines">
+
+        <TextView
+            android:id="@+id/subtitle_readScr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorPrimary"
+            android:text="Description"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginBottom="@dimen/md_keylines" />
+
+        <TextView
+            android:id="@+id/content_readScr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/detail_desc" />
+
+        <TextView
+            android:id="@+id/author_readScr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorPrimaryDark"
+            android:text="Location"
+            android:textSize="@dimen/article_titles"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/md_keylines" />
+
+        <TextView
+            android:id="@+id/genre_readScr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="@string/detail_location" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
